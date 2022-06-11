@@ -1,0 +1,34 @@
+{
+  "name": "exercicejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  "test": "echo 'Error: no test specified' && exit 1",
+  "webpack": "webpack",
+  "start": "webpack serve"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julescynamon/exerciceJs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/julescynamon/exerciceJs/issues"
+  },
+  "homepage": "https://github.com/julescynamon/exerciceJs#readme",
+  "dependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.18.2",
+    "@babel/preset-env": "^7.18.2"
+  },
+  "devDependencies": {
+    "babel-loader": "^8.2.5",
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.2"
+  }
+}
